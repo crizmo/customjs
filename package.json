@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Substitute 'console.log()' with your preferred variable name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crizmo/code.git",
+    "homepage": "https://github.com/crizmo/code#readme"
+  },
+  "keywords": [
+    "code",
+    "console",
+    "log",
+    "console.log"
+  ],
+  "author": "Kurizu",
+  "license": "MIT"
+}
