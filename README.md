@@ -1,25 +1,24 @@
-# JsPrint
+# Custom
 
-JsPrint is a simple npm package that allows you to assign `console.log` functionality to a variable of your choice. Once set up, you can use the assigned variable to log messages to the console.
-
-Idk why you would want to do this, but I made it anyway.
-Like why would you want to use this but whatever.
+Custom is a simple npm package that allows you to customize certain JavaScript functions.
 
 ## Installation
 
-You can install JsPrint using npm:
+You can install custom using npm:
 
 ```bash
-npm install jsprint
+npm install @kurizu/custom
 ```
 
 # Usage
 
+1. SetLog <br>
+
 First, import the package and initialize it by calling the set function and passing a variable name. This will assign console.log to the specified variable:
     
 ```js 
-const jsprint = require('jsprint');
-jsprint.set('log');
+const custom = require('@kurizu/custom');
+custom.setlog('log');
 ```
 
 Now you can use the assigned variable, to log messages to the console:
@@ -28,20 +27,24 @@ Now you can use the assigned variable, to log messages to the console:
 log('Hello World!'); // Hello World!
 ```
 
-You can have multiple instances of JsPrint running at the same time by calling the set function with different variable names:
+You can have multiple instances of setlog running at the same time by calling the set function with different variable names:
     
 ```js
-const jsprint = require('jsprint');
-jsprint.set('log');
-jsprint.set('log2');
+const custom = require('@kurizu/custom');
+custom.setlog('log');
+custom.setlog('log2');
 ```
 
-You can also use the `jsprint` variable to log messages to the console:
+You can also use the `custom` variable to log messages to the console:
     
 ```js
 log('Hello World!'); // Hello World!
 log2('Hello World! 2'); // Hello World 2!
 ```
+
+# Features
+I plan on adding more features to this package in the future. If you have any suggestions, feel free to open an issue.
+
 
 # License
 

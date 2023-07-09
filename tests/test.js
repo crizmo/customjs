@@ -1,7 +1,7 @@
-const jsprint = require('../src/jsprint.js');
+const custom = require('../src/custom.js');
 
-jsprint.set('test');
+custom.setlog('test');
 test('test');
 
-jsprint.set('test2');
+custom.setlog('test2');
 test2('test 2');

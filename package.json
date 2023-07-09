@@ -1,5 +1,5 @@
 {
-  "name": "jsprint",
+  "name": "@kurizu/custom",
   "version": "1.0.0",
   "description": "Substitute 'console.log()' with your preferred variable name.",
   "main": "index.js",
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crizmo/JsPrint.git",
-    "homepage": "https://github.com/crizmo/JsPrint#readme"
+    "url": "https://github.com/crizmo/@kurizu/custom.git",
+    "homepage": "https://github.com/crizmo/@kurizu/custom#readme"
   },
   "keywords": [
     "print",
     "console",
     "log",
-    "console.log"
+    "console.log",
+    "custom"
   ],
   "author": "Kurizu",
   "license": "MIT"

@@ -1,1 +1,1 @@
-module.exports = require('./src/jsprint');
+module.exports = require('./src/custom');
