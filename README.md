@@ -17,7 +17,7 @@ npm install customjs
 First, import the package and initialize it by calling the set function and passing a variable name. This will assign console.log to the specified variable:
     
 ```js 
-const custom = require('customjs');
+const custom = require('@kurizu/customjs')
 custom.setlog('log');
 ```
 
@@ -30,7 +30,7 @@ log('Hello World!'); // Hello World!
 You can have multiple instances of setlog running at the same time by calling the set function with different variable names:
     
 ```js
-const custom = require('customjs');
+const custom = require('@kurizu/customjs')
 custom.setlog('log');
 custom.setlog('log2');
 ```

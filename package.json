@@ -1,7 +1,7 @@
 {
-  "name": "customjs",
+  "name": "@kurizu/customjs",
   "version": "1.0.0",
-  "description": "Substitute 'console.log()' with your preferred variable name.",
+  "description": "Customjs is a simple npm package that allows you to customize certain JavaScript functions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
