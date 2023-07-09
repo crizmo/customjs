@@ -7,7 +7,7 @@ Custom is a simple npm package that allows you to customize certain JavaScript f
 You can install custom using npm:
 
 ```bash
-npm install customjs
+npm install @kurizu/customjs
 ```
 
 # Functions
