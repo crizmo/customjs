@@ -1,50 +1,63 @@
-# Custom
+# CustomJS
 
-Custom is a simple npm package that allows you to customize certain JavaScript functions.
+CustomJS is a simple npm package that allows you to customize JavaScript functions with additional features, such as logging with customizable colors.
 
 ## Installation
 
-You can install custom using npm:
+You can install CustomJS using npm:
 
 ```bash
 npm install @kurizu/customjs
 ```
 
 # Functions
+SetLog
 
-1. SetLog <br>
+The SetLog function allows you to customize logging behavior by assigning a logging function to a specified variable name. It also supports customizing the log level and color.
 
-First, import the package and initialize it by calling the set function and passing a variable name. This will assign console.log to the specified variable:
-    
-```js 
-const custom = require('@kurizu/customjs')
-custom.setlog('log');
+First, import the package and initialize it by calling the setlog function and passing a variable name and log level. This will assign the customized logging function to the specified variable:
+
+```javascript
+const custom = require('@kurizu/customjs');
+custom.setlog('log', 'info');
 ```
 
-Now you can use the assigned variable, to log messages to the console:
-    
-```js   
-log('Hello World!'); // Hello World!
+Now you can use the assigned variable to `log` messages to the console with the specified log level:
+
+```javascript
+log('Hello World!');
 ```
 
-You can have multiple instances of setlog running at the same time by calling the set function with different variable names:
-    
-```js
-const custom = require('@kurizu/customjs')
-custom.setlog('log');
-custom.setlog('log2');
+You can have multiple instances of `setlog` running at the same time by calling the `setlog` function with different variable names:
+
+```javascript
+const custom = require('@kurizu/customjs');
+custom.setlog('log', 'info');
+custom.setlog('log2', 'warning');
 ```
 
-You can also use the `custom` variable to log messages to the console:
-    
-```js
-log('Hello World!'); // Hello World!
-log2('Hello World! 2'); // Hello World 2!
+You can also use the assigned variables to log messages to the console:
+
+```javascript
+log('Hello World!'); // Logs an info message in cyan color: Hello World!
+log2('Hello World! 2'); // Logs a warning message in yellow color: Hello World 2!
 ```
+
+## Available Log Levels and Colors
+
+CustomJS supports the following log levels and their corresponding colors:
+
+1. none: No color formatting applied
+2. info: Cyan color
+3. warning: Yellow color
+4. error: Red color
+
+You can customize the log level when calling setlog by providing the desired log level as the second argument. If an invalid log level is provided, an error message will be displayed.
 
 # Features
-I plan on adding more features to this package in the future. If you have any suggestions, feel free to open an issue.
 
+CustomJS aims to provide customizable JavaScript functions for various purposes. In the future, I plan to add more features and functionalities to this package. If you have any suggestions, feel free to open an issue on the GitHub repository.
 
 # License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
