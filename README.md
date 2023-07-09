@@ -7,7 +7,7 @@ Custom is a simple npm package that allows you to customize certain JavaScript f
 You can install custom using npm:
 
 ```bash
-npm install @kurizu/custom
+npm install customjs
 ```
 
 # Functions
@@ -17,7 +17,7 @@ npm install @kurizu/custom
 First, import the package and initialize it by calling the set function and passing a variable name. This will assign console.log to the specified variable:
     
 ```js 
-const custom = require('@kurizu/custom');
+const custom = require('customjs');
 custom.setlog('log');
 ```
 
@@ -30,7 +30,7 @@ log('Hello World!'); // Hello World!
 You can have multiple instances of setlog running at the same time by calling the set function with different variable names:
     
 ```js
-const custom = require('@kurizu/custom');
+const custom = require('customjs');
 custom.setlog('log');
 custom.setlog('log2');
 ```
