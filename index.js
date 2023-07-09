@@ -1,1 +1,1 @@
-module.exports = require('./src/setlog');
+module.exports = require('./src/jsprint');

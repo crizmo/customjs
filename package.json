@@ -1,5 +1,5 @@
 {
-  "name": "setlog",
+  "name": "jsprint",
   "version": "1.0.0",
   "description": "Substitute 'console.log()' with your preferred variable name.",
   "main": "index.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crizmo/setlog.git",
-    "homepage": "https://github.com/crizmo/setlog#readme"
+    "url": "https://github.com/crizmo/jsprint.git",
+    "homepage": "https://github.com/crizmo/jsprint#readme"
   },
   "keywords": [
-    "setlog",
+    "print",
     "console",
     "log",
     "console.log"
