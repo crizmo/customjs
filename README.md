@@ -10,7 +10,7 @@ You can install custom using npm:
 npm install @kurizu/custom
 ```
 
-# Usage
+# Functions
 
 1. SetLog <br>
 
@@ -47,5 +47,4 @@ I plan on adding more features to this package in the future. If you have any su
 
 
 # License
-
 This project is licensed under the MIT License. See the LICENSE file for more details.
