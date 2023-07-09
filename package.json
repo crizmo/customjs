@@ -1,5 +1,5 @@
 {
-  "name": "@kurizu/custom",
+  "name": "customjs",
   "version": "1.0.0",
   "description": "Substitute 'console.log()' with your preferred variable name.",
   "main": "index.js",
@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crizmo/Custom.git",
-    "homepage": "https://github.com/crizmo/Custom#readme"
+    "url": "https://github.com/crizmo/custom.js.git",
+    "homepage": "https://github.com/crizmo/custom.js#readme"
   },
   "keywords": [
     "print",
