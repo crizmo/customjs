@@ -1,7 +1,7 @@
-const code = require('../src/code.js');
+const setlog = require('../src/setlog.js');
 
-code.init('test');
+setlog.init('test');
 test('test');
 
-code.init('test2');
+setlog.init('test2');
 test2('test 2');

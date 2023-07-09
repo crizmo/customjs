@@ -1,1 +1,1 @@
-module.exports = require('./src/code');
+module.exports = require('./src/setlog');
