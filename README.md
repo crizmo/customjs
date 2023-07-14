@@ -11,7 +11,7 @@ npm install @kurizu/customjs
 ```
 
 # Functions
-SetLog
+1 - SetLog
 
 The SetLog function allows you to customize logging behavior by assigning a logging function to a specified variable name. It also supports customizing the log level and color.
 
@@ -43,7 +43,7 @@ log('Hello World!'); // Logs an info message in cyan color: Hello World!
 log2('Hello World! 2'); // Logs a warning message in yellow color: Hello World 2!
 ```
 
-Calculate 
+2 - Calculate 
 The calculate function basically lets you do operations strings.
     
 ```javascript   
