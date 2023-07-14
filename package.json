@@ -16,7 +16,9 @@
     "console",
     "log",
     "console.log",
-    "custom"
+    "custom",
+    "calculate",
+    "calc"
   ],
   "author": "Kurizu",
   "license": "MIT"
