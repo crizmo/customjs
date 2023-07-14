@@ -1,6 +1,6 @@
 {
   "name": "@kurizu/customjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Customjs is a simple npm package that allows you to customize certain JavaScript functions.",
   "main": "index.js",
   "scripts": {
