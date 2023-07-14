@@ -1,5 +1,5 @@
 const custom = require('../src/custom.js');
-const { setlog } = require('../src/custom.js');
+const { setlog, calculate } = require('../src/custom.js');
 
 custom.setlog('test');
 test('test');
@@ -24,3 +24,7 @@ setlog('hi', 'error'); // Enable logging with 'error' level using the variable n
 
 // Test the logger
 hi('This is an error message.', 'red'); // Logs the message with red color
+
+setlog('poop', 'info'); 
+poop(calculate([1, '2', 3], '+')); // 6
+poop(calculate([1, '2'], '-')); // -4

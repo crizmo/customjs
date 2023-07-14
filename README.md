@@ -43,6 +43,38 @@ log('Hello World!'); // Logs an info message in cyan color: Hello World!
 log2('Hello World! 2'); // Logs a warning message in yellow color: Hello World 2!
 ```
 
+Calculate 
+The calculate function basically lets you do operations strings.
+    
+```javascript   
+const custom = require('@kurizu/customjs');
+custom.calculate([1, '2'], '-')
+```
+
+The available operations are:
+- `+` for addition
+- `-` for subtraction
+- `*` for multiplication
+- `/` for division
+- `%` for modulus
+- `**` for exponentiation
+
+You cause even use it with the `setlog` function to log the result of the calculation:
+
+```javascript
+const custom = require('@kurizu/customjs');
+custom.setlog('log', 'info');
+log(custom.calculate([1, '2', 3], '*')); // Logs an info message in cyan color: 6
+```
+
+And can pass the amount of numbers you want as array:
+
+```javascript
+const custom = require('@kurizu/customjs');
+custom.setlog('log', 'info');
+log(custom.calculate([1, '2', 3, "4", 5], '*')); // Logs an info message in cyan color: 120
+```
+
 ## Available Log Levels and Colors
 
 CustomJS supports the following log levels and their corresponding colors:

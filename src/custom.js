@@ -34,4 +34,43 @@ const SetLog = (variable, logLevel = 'none') => {
     }
 };
 
+const Calculate = (operands, operator) => {
+    const numbers = operands.map((operand) => {
+        if (typeof operand === 'string') {
+            return Number(operand);
+        }
+        return operand;
+    });
+
+    if (numbers.every((num) => typeof num === 'number')) {
+        let result;
+        switch (operator) {
+            case '+':
+                result = numbers.reduce((a, b) => a + b, 0);
+                break;
+            case '-':
+                result = numbers.reduce((a, b) => a - b);
+                break;
+            case '/':
+                result = numbers.reduce((a, b) => a / b);
+                break;
+            case '*':
+                result = numbers.reduce((a, b) => a * b, 1);
+                break;
+            case '%':
+                result = numbers.reduce((a, b) => a % b);
+                break;
+            case '**':
+                result = numbers.reduce((a, b) => a ** b);
+                break;
+            default:
+                result = 0;
+        }
+        return result;
+    } else {
+        return 0;
+    }
+};
+
 module.exports.setlog = SetLog;
+module.exports.calculate = Calculate;
