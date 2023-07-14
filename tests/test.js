@@ -27,4 +27,4 @@ hi('This is an error message.', 'red'); // Logs the message with red color
 
 setlog('poop', 'info'); 
 poop(calculate([1, '2', 3], '+')); // 6
-poop(calculate([1, '2'], '-')); // -4
+poop(calculate([1, '2'], '-')); // -1
